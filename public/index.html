@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GhostHunter</title>
+    <link rel="stylesheet" href="./styles/difficulties.css">
+    <script  defer src="./scripts/play.js"> 
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="#mainHeader">
+        <h1>Ghost Hunter</h1>
+    </header>
+    <article id="mainArticle">
+        <h3>Selecciona una dificultad:</h3>
+        <section id="form_difficulties">
+            <div class="radioContainer"> 
+                <label for="easy">Fácil</label>
+                <input type="radio" name="difficulties" id="easy" value="easy" checked="checked">
+            </div>
+            <div class="radioContainer">   
+                <label for="medium">Medio</label>
+                <input type="radio" name="difficulties" id="medium" value="medium">
+            </div>
+            <div class="radioContainer">
+                <label for="easy">Difícil</label>
+                <input type="radio" name="difficulties" id="hard" value="hard">
+            </div>
+            <a href="./play/play.html">
+                <input type="button" value="Start" id="selectDifficulty">
+            </a>
+            
+        </section>
+    </article>
+    
+</body>
+</html>
