@@ -1,31 +1,38 @@
 *{
-    font-family: 'Press Start 2P', cursive;;
- }
- 
- h1{
-     text-align: center;
- }
- a{
-     text-align: center;
- }
- 
- #mainArticle{
-     display: flex;
-     justify-content: center;
-     flex-flow: column wrap;
-     width: 500px;
-     margin-left: auto;
-     margin-right: auto;
- }
- 
- #form_difficulties{
-     display: flex;
-     flex-flow: column wrap;
-     justify-content: center;
- }
- 
- .radioContainer{
-     display: flex;
-     justify-content: center;
-     margin-bottom: 15px;
- }
+   font-family: 'Press Start 2P', cursive;;
+}
+
+h1{
+    text-align: center;
+}
+
+#mainArticle{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#form_difficulties{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.radioContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+#highscores{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#scoresTable{
+    border-collapse: separate;
+    border-spacing: 50px 10px;
+}
