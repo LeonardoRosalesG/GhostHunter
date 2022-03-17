@@ -1,0 +1,85 @@
+*{
+  font-family: 'Press Start 2P', cursive;
+}
+
+#easyHeader{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+
+}
+#easyHeaderInfo{
+  width: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#easyHeaderStatus{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#playSection{
+  border-color: aqua;
+  height: 400px;
+}
+#easyGhost {
+  display: block;
+  height: 40px;
+  background: pink;
+  color: #d311d3;
+  padding: .2rem .3rem 1rem .3rem;
+  position: fixed;
+  border-radius: 2rem 2rem 0 0;
+  animation: play 10s;
+  
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes play{
+  0% {
+    top: 260px;
+    left: 250px;
+  }
+  25% {
+    top: 260px;
+    left: 1000px;
+    color: black;
+  }
+  
+  50% {
+    top: 450px;
+    left: 1000px;
+    color: #d311d3;
+  }
+  
+  75%{
+    top: 450px;
+    left: 250px;
+    color: black;
+  }
+  
+  100% {
+    top: 260px;
+    left: 250px;
+    color: #d311d3;
+  } 
+}
+
+@keyframes floating{
+  0% {
+    top: 350px;
+    left: 650px;
+  }
+  50%{
+    top: 355px;
+    left: 650px;
+  }
+  100% {
+    top: 350px;
+    left: 650px;
+  }
+}

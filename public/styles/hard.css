@@ -1,0 +1,173 @@
+*{
+  font-family: 'Press Start 2P', cursive;
+}
+
+#hardHeader{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+
+}
+#hardHeaderInfo{
+  width: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#hardHeaderStatus{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#playSection{
+  border-color: aqua;
+  height: 400px;
+}
+#hardGhost {
+  display: block;
+  height: 40px;
+  background: rgb(95, 5, 5);
+  color: #d39f11;
+  padding: .2rem .3rem 1rem .3rem;
+  position: fixed;
+  border-radius: 2rem 2rem 0 0;
+  animation: play2 6s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes play1{
+  0% {
+    top: 260px;
+    left: 250px;
+  }
+  12.5% {
+    top: 260px;
+    left: 1000px;
+    color: white;
+  }
+  
+  25% {
+    top: 450px;
+    left: 250px;
+    color: #d39f11;
+  }
+  
+  37.5%{
+    top: 450px;
+    left: 1000px;
+    color: white;
+  }
+  50%{
+    top: 260px;
+    left: 250px;
+    color: #d39f11;
+  }
+  67.5%{
+    top: 450px;
+    left: 250px;
+    color: white;
+  }
+  75%{
+    top: 450px;
+    left: 1000px;
+    color: #d39f11;
+  }
+  87.5%{
+    top: 260px;
+    left: 1000px;
+    color: white;
+  }
+  100% {
+    top: 260px;
+    left: 250px;
+    color: #d39f11;
+  } 
+}
+
+@keyframes play2{
+  0% {
+    top: 260px;
+    left: 250px;
+    opacity: 1;
+  }
+  10% {
+    top: 355px;
+    left: 625px;
+    color: white;
+    opacity: 0;
+  }
+  
+  20% {
+    top: 450px;
+    left: 250px;
+    color: #d39f11;
+    opacity: 1;
+  }
+  
+  30%{
+    top: 450px;
+    left: 1000px;
+    color: white;
+    opacity: 0;
+  }
+
+  40%{
+    top: 355px;
+    left: 625px;
+    color: #d39f11;
+    opacity: 1;
+  }
+  50%{
+    top: 260px;
+    left: 1000px;
+    color: white;
+    opacity: 0;
+  }
+  60%{
+    top: 260px;
+    left: 250px;
+    color: #d39f11;
+    opacity: 1;
+  }
+  70%{
+    top: 450px;
+    left: 1000px;
+    color: white;
+    opacity: 0;
+  }
+  80% {
+    top: 260px;
+    left: 1000px;
+    color: #d39f11;
+    opacity: 1;
+  }
+  90%{
+    top: 450px;
+    left: 250px;
+    color: white;
+    opacity: 0;
+  } 
+  100% {
+    top: 260px;
+    left: 250px;
+    color: #d39f11;
+    opacity: 1;
+  }
+}
+@keyframes floating{
+  0% {
+    top: 350px;
+    left: 650px;
+  }
+  50%{
+    top: 355px;
+    left: 650px;
+  }
+  100% {
+    top: 350px;
+    left: 650px;
+  }
+}
