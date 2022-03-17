@@ -97,7 +97,8 @@ const changeAnimation = (ghost) =>{
 }
 
 
-
+// Quise utilizar estas funciones en la partde de abajo pero no las reconocia,
+// opté por usar arrow functions
 // const openHelp = () =>{
 //     let help = document.getElementById("helpScreen");
 //     help.style.display = "block";
